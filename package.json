@@ -1,0 +1,24 @@
+{
+  "name": "sticky-header",
+  "version": "1.0.0",
+  "description": "Sticky header UX based on scroll behaviour.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/massimogalleri/sticky-header.git"
+  },
+  "author": "Massimo Galleri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/massimogalleri/sticky-header/issues"
+  },
+  "homepage": "https://github.com/massimogalleri/sticky-header#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
