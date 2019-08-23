@@ -17,12 +17,14 @@
         if (st > _lastScrollTop && st > _navbarH) {
             _nav.classList.remove('header-in-viewport');
             _nav.classList.add('header-out-viewport');
-        } else {
-            if (st + _winH < _docH) {
-                _nav.classList.remove('header-out-viewport');
-                _nav.classList.add('header-in-viewport');
-            }
-
+        } else if (st + _winH < _docH) {
+            _nav.classList.remove('header-out-viewport');
+            _nav.classList.add('header-in-viewport');
+        }
+        
+        if (st + _winH == _docH) {
+            _nav.classList.remove('header-out-viewport');
+            _nav.classList.add('header-in-viewport');
         }
 
         _lastScrollTop = st;
